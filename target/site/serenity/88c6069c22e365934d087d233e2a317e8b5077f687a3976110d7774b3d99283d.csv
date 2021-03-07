@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Remove item from Basket - AC4","The one where I am removing an item from basket and checking counter","SUCCESS","2021-03-07T23:40:04.337785Z[Europe/London]","0.0","9.88"
+"Remove item from Basket - AC4","The one where I remove a product from the basket page and the count is decreased by 1","SUCCESS","2021-03-07T23:40:14.2262569Z[Europe/London]","0.0","12.51"

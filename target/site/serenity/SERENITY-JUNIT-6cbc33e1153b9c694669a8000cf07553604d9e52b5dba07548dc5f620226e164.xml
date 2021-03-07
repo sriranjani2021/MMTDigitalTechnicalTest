@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login Success AC1" skipped="0" tests="4" time="51.73" timestamp="2021-03-07 11:13:48"><testcase name="The one where I test login with different invalid combinations"/><testcase name="The one where I successfully login with valid username and password"/></testsuite>

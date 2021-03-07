@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">MMT Digital Technical Test</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a80d0d5d443b73f87208aa9be1e2d7c473fbc87d43047af97b25e8b787509c2d.html">Login Success Ac1</a></span>
+                > <span class="truncate-60"><a
+                    href="6cbc33e1153b9c694669a8000cf07553604d9e52b5dba07548dc5f620226e164.html">The one where I test login with different invalid combinations </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-03-2021 23:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Login Success Ac1 </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">Login
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="9aa82d331814d8b4f2f6d3e0f449486bc2f5d1dbace9c430f98e5548dc535eb3.html">Endtoend
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">The one where I test login with different invalid combinations
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that I am on the login page<br>And I have entered "&lt;username&gt;" and "&lt;password&gt;"<br>When I click Login<br>Then an error will be thrown below the form stating "&lt;error message&gt;"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Example #1: {username=, password=, error message=Epic sadface: Username is required}" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Navigate to login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page (completed)" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" And I have entered &quot;&quot; and &quot;&quot;" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Enter username: " width="2256"/>
+                <img src="ccc70491b31a3f96808864089845bc8c2ab33f0d344f0893b3f6f4fe4809dcb4.png" title=" Enter username:  (completed)" width="2256"/>
+                <img src="ccc70491b31a3f96808864089845bc8c2ab33f0d344f0893b3f6f4fe4809dcb4.png" title=" Enter password: " width="2256"/>
+                <img src="846201ec329952f7726532c4f7a3fe728a149cd5b062ac93f4e5b66c3579f854.png" title=" Enter password:  (completed)" width="2256"/>
+                <img src="846201ec329952f7726532c4f7a3fe728a149cd5b062ac93f4e5b66c3579f854.png" title=" And I have entered &quot;&quot; and &quot;&quot; (completed)" width="2256"/>
+                <img src="846201ec329952f7726532c4f7a3fe728a149cd5b062ac93f4e5b66c3579f854.png" title=" When I click Login" width="2256"/>
+                <img src="846201ec329952f7726532c4f7a3fe728a149cd5b062ac93f4e5b66c3579f854.png" title=" Click login button" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Click login button (completed)" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" When I click Login (completed)" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Username is required&quot;" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Verify error message: Epic sadface: Username is required" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Verify error message: Epic sadface: Username is required (completed)" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Username is required&quot; (completed)" width="2256"/>
+                <img src="908302c40b0b6df9ddc2a1c11f6ea59f8e82c8d95642a2ceb8fd80032d5dc6aa.png" title=" Example #1: {username=, password=, error message=Epic sadface: Username is required} (completed)" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Example #2: {username=standard-user, password=, error message=Epic sadface: Password is required}" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Navigate to login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page (completed)" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" And I have entered &quot;standard-user&quot; and &quot;&quot;" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Enter username: standard-user" width="2256"/>
+                <img src="840fb30fce6496ec63289bcbd49a5b180598a8fc0ee43fb1f833a981a74f6588.png" title=" Enter username: standard-user (completed)" width="2256"/>
+                <img src="840fb30fce6496ec63289bcbd49a5b180598a8fc0ee43fb1f833a981a74f6588.png" title=" Enter password: " width="2256"/>
+                <img src="de05ac4d208e9a2c85e92b99af4b15d7380818c8819cd480c1eb1736c1c6c50a.png" title=" Enter password:  (completed)" width="2256"/>
+                <img src="de05ac4d208e9a2c85e92b99af4b15d7380818c8819cd480c1eb1736c1c6c50a.png" title=" And I have entered &quot;standard-user&quot; and &quot;&quot; (completed)" width="2256"/>
+                <img src="de05ac4d208e9a2c85e92b99af4b15d7380818c8819cd480c1eb1736c1c6c50a.png" title=" When I click Login" width="2256"/>
+                <img src="de05ac4d208e9a2c85e92b99af4b15d7380818c8819cd480c1eb1736c1c6c50a.png" title=" Click login button" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Click login button (completed)" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" When I click Login (completed)" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Password is required&quot;" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Verify error message: Epic sadface: Password is required" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Verify error message: Epic sadface: Password is required (completed)" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Password is required&quot; (completed)" width="2256"/>
+                <img src="777a4b634c935238c21939daa845b51b4b4837b9cff51fc0bd9fffec633de243.png" title=" Example #2: {username=standard-user, password=, error message=Epic sadface: Password is required} (completed)" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Example #3: {username=invalid-user, password=invalid, error message=Epic sadface: Username and password do not match any user in this service}" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Navigate to login page" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Given that I am on the login page (completed)" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" And I have entered &quot;invalid-user&quot; and &quot;invalid&quot;" width="2256"/>
+                <img src="6d6462c6c0545b88b6fbfd87fdef8de6609547773760a0cf234d1ef680b9809c.png" title=" Enter username: invalid-user" width="2256"/>
+                <img src="891ed9fcb2a84bfe33c751893feab0604097957b598e9b5bd1280737750e39a6.png" title=" Enter username: invalid-user (completed)" width="2256"/>
+                <img src="891ed9fcb2a84bfe33c751893feab0604097957b598e9b5bd1280737750e39a6.png" title=" Enter password: invalid" width="2256"/>
+                <img src="e61b86a9b4b2f86febaf49bad07afbc80d323035da1fd241d9c0594eb7657beb.png" title=" Enter password: invalid (completed)" width="2256"/>
+                <img src="e61b86a9b4b2f86febaf49bad07afbc80d323035da1fd241d9c0594eb7657beb.png" title=" And I have entered &quot;invalid-user&quot; and &quot;invalid&quot; (completed)" width="2256"/>
+                <img src="e61b86a9b4b2f86febaf49bad07afbc80d323035da1fd241d9c0594eb7657beb.png" title=" When I click Login" width="2256"/>
+                <img src="e61b86a9b4b2f86febaf49bad07afbc80d323035da1fd241d9c0594eb7657beb.png" title=" Click login button" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Click login button (completed)" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" When I click Login (completed)" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Username and password do not match any user in this service&quot;" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Verify error message: Epic sadface: Username and password do not match any user in this service" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Verify error message: Epic sadface: Username and password do not match any user in this service (completed)" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Then an error will be thrown below the form stating &quot;Epic sadface: Username and password do not match any user in this service&quot; (completed)" width="2256"/>
+                <img src="a8815c4578805cba8d8b4254937618ea0016fc62296a526ca6aa96ebe58c1d82.png" title=" Example #3: {username=invalid-user, password=invalid, error message=Epic sadface: Username and password do not match any user in this service} (completed): <span class='success-color'>SUCCESS</span>" width="2256"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.48</span>
+</div>
+</body>
+</html>

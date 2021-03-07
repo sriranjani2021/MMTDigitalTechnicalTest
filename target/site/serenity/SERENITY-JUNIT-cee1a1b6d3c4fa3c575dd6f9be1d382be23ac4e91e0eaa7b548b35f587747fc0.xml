@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Remove item from Basket - AC4" skipped="0" tests="2" time="22.39" timestamp="2021-03-07 11:40:04"><testcase name="The one where I am removing an item from basket and checking counter"/><testcase name="The one where I remove a product from the basket page and the count is decreased by 1"/></testsuite>
