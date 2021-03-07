@@ -1,7 +1,8 @@
-@endtoend
-Feature: Login Success AC1
+@endtoend @login
+Feature: Login Success - AC1
+  #As a subscribed member I can log in using my credentials so that my account is securely accessible
 
-    Scenario Outline: The one where I login with different combinations
+    Scenario Outline: The one where I test login with different invalid combinations
 
       Given that I am on the login page
       And I have entered "<username>" and "<password>"
@@ -14,7 +15,7 @@ Feature: Login Success AC1
         |standard-user|        |Epic sadface: Password is required                                       |
         |invalid-user |invalid |Epic sadface: Username and password do not match any user in this service|
 
-
+@smoke
       Scenario: The one where I successfully login with valid username and password
         Given that I am on the login page
         And I have entered "standard_user" and "secret_sauce"
