@@ -6,6 +6,8 @@ The tests should be run on a windows machine and the following browsers are supp
   1. Chrome
   2. Edge
   3. Firefox
+
+
 Support for mac OS and safari browser will be added in subsequent releases.
 
 ## How to run the tests (intelliJ)
