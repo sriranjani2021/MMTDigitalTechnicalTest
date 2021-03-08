@@ -12,6 +12,11 @@ end to end tests (annotated @endtoend) in the feature file. Similary I have incl
 2: The tests can be run on different browsers by changing the webdriver.driver property in the serenity.properties file 
 and all the driver.exe files are included in the project along with their path
 
+3: To run tests from Command line : 
+mvn clean verify -B -Pserenity serenity:aggregate -Dserenity.outputDirectory=./target/site/serenity "-Dcucumber.options=--tags @endtoend
+(Scenarios with tag @endtoend will be run)
+
+
 ## How to generate the serenity report
 
 1: After you have run all the tests, go to the configuration drop down and select the maven runner 'Generate Report'. Run this and wait
