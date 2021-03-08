@@ -1,5 +1,13 @@
 # MMTDigitalTechnicalTest --- Sriranjani Vaidhyanathan
 
+## Pre Requisites
+
+The tests should be run on a windows machine and the following browsers are supported.
+  1. Chrome
+  2. Edge
+  3. Firefox
+Support for mac OS and safari browser will be added in subsequent releases.
+
 ## How to run the tests (intelliJ)
 
 1: In the run configuration drop down, select the junit runner (for Eg: 'EndToEndTestRunner' and run it. This will run all of the 
