@@ -103,7 +103,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Login Success - AC1","type":"feature","href":"02641a6ee4403a38e06797db45b636c62304b51a8b706abaff21bd7a4e9b4278.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Login Success - AC1","type":"feature","href":"02641a6ee4403a38e06797db45b636c62304b51a8b706abaff21bd7a4e9b4278.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 scenarios\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -169,7 +169,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-03-2021 23:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-03-2021 00:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -263,10 +263,20 @@
                                                                 <table>
                                                                     <tr>
                                                                         <td>
-                                                                            
-                                                                            
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="de3dbb1d7181e6202fe5735030fbedca929c61c075e0461536fade104b0b014e.html"
+                                                                               title="View test results">
+                                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                            </a>
 
                                                                         
+                                                                        </td>
+                                                                        <td>
+                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                               href="de3dbb1d7181e6202fe5735030fbedca929c61c075e0461536fade104b0b014e.html"
+                                                                               title="View test results">
+                                                                                <i class="fas fa-search-plus"></i>
+                                                                            </a>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -309,16 +319,15 @@
 
 
                                                 <div class="scenario-docs card" id="efeeb186ad3dc73089ab1a35f6c62d28e6c424034592f1cbf8fffe6fe690179a">
-                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="" title="View test results">The one where I test login with different invalid combinations</a>
+                                                                <a href="de3dbb1d7181e6202fe5735030fbedca929c61c075e0461536fade104b0b014e.html" title="View test results">The one where I test login with different invalid combinations</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <i class="fas fa-pause"
-                                                                       title="No test has been implemented yet"></i>
+                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -334,9 +343,9 @@
 <tr><th>username</th><th>password</th><th>error message</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td></td><td></td><td>Epic sadface: Username is required</td><td>{example-result:Login Success - AC1!The one where I test login with different invalid combinations[0][0]}</td></tr>
-<tr><td>standard-user</td><td></td><td>Epic sadface: Password is required</td><td>{example-result:Login Success - AC1!The one where I test login with different invalid combinations[0][1]}</td></tr>
-<tr><td>invalid-user</td><td>invalid</td><td>Epic sadface: Username and password do not match any user in this service</td><td>{example-result:Login Success - AC1!The one where I test login with different invalid combinations[0][2]}</td></tr>
+<tr><td></td><td></td><td>Epic sadface: Username is required</td><td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></td></tr>
+<tr><td>standard-user</td><td></td><td>Epic sadface: Password is required</td><td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></td></tr>
+<tr><td>invalid-user</td><td>invalid</td><td>Epic sadface: Username and password do not match any user in this service</td><td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -387,7 +396,7 @@
                                                 var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -428,7 +437,7 @@
                                                                         <a href="dd374a42858d5c2cc5c5896bb65a30f91034b2599ee95dc10208fd91e7a05ebf.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">4</td>
                                                 <td class="automated-stats">100%</td>
                                             </tr>
                                             <tr>
@@ -483,7 +492,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">4</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -505,11 +514,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>6s</td>
-                                                        <td>6ms</td>
-                                                        <td>6s</td>
-                                                        <td>6s</td>
-                                                        <td>6s</td>
+                                                        <td>35s</td>
+                                                        <td>27s</td>
+                                                        <td>8s</td>
+                                                        <td>27s</td>
+                                                        <td>17s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -532,17 +541,17 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result UNDEFINED">
+                                                <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            The one where I test login with different invalid combinations
+                                                            <a href="de3dbb1d7181e6202fe5735030fbedca929c61c075e0461536fade104b0b014e.html">The one where I test login with different invalid combinations</a>
                                                                (3 examples)
                                                     </td>
                                                     <td>4</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>
-                                                            <i class="fas fa-pause"
-                                                               title="No test has been implemented yet"></i>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="scenario-result SUCCESS">

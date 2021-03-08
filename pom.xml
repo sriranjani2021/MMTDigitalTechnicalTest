@@ -74,6 +74,9 @@
                        </systemPropertyVariables>
                     <includes>
                         <include>**/runners/EndToEndTestRunner.java</include>
+                        <include>**/runners/LoginTestRunner.java</include>
+                        <include>**/runners/InventoryTestRunner.java</include>
+                        <include>**/runners/SmokeTestRunner.java</include>
                         </includes>
                 </configuration>
             </plugin>

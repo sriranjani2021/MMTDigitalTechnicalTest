@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login Success - AC1","The one where I successfully login with valid username and password","SUCCESS","2021-03-07T23:39:49.0477719Z[Europe/London]","0.0","6.56"
+"Login Success - AC1","The one where I test login with different invalid combinations","SUCCESS","2021-03-08T00:43:53.623Z[Europe/London]","0.0","27.53"
+"Login Success - AC1","The one where I successfully login with valid username and password","SUCCESS","2021-03-08T00:44:21.151Z[Europe/London]","0.0","8.2"

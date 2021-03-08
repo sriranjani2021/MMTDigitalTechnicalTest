@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login Accessibility - AC2","The one where pressing the enter key while on the login button will log me in successfully","SUCCESS","2021-03-07T23:39:55.6081854Z[Europe/London]","0.0","8.73"
+"Login Accessibility - AC2","The one where I am focused on username field and tab on keyboard takes me to password field","SUCCESS","2021-03-08T00:44:29.353Z[Europe/London]","0.0","7.25"
+"Login Accessibility - AC2","The one where I am focused on password field and tab on keyboard takes me to login button","SUCCESS","2021-03-08T00:44:36.603Z[Europe/London]","0.0","10.79"
+"Login Accessibility - AC2","The one where pressing the enter key while on the login button will log me in successfully","SUCCESS","2021-03-08T00:44:47.399Z[Europe/London]","0.0","9.09"
