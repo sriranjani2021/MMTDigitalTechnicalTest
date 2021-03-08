@@ -7,6 +7,8 @@ end to end tests (annotated @endtoend) in the feature file. Similary I have incl
   1. SmokeTestRunner - covers a few happy path scenarios to test 
   2. LoginTestRunner - runs all the login tests including the accessibility ones
   3. InventoryTestRunner - runs all the tests covering adding and removing items in basket
+
+
 2: The tests can be run on different browsers by changing the webdriver.driver property in the serenity.properties file 
 and all the driver.exe files are included in the project along with their path
 
